@@ -21,6 +21,10 @@ import org.springframework.web.client.RestTemplate;
 @EnableDiscoveryClient
 @EnableFeignClients
 public class DiscoveryGuideServiceA1 {
+    /**
+     * http://localhost:3001/invoke/gateway
+     * http://localhost:3001/rest/gateway
+     */
     public static void main(String[] args) {
         System.setProperty("spring.profiles.active", "a1");
 
